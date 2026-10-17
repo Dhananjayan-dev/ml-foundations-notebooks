@@ -1,0 +1,14 @@
+[project]
+name = "ml-foundations-notebooks"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "scikit-learn>=1.5",
+    "matplotlib>=3.8",
+    "jupyterlab>=4.2",
+]
+
+[dependency-groups]
+dev = ["ruff>=0.6", "pytest>=8", "nbqa>=1.8"]
